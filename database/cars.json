@@ -1,0 +1,16 @@
+[
+  {
+    "id": "0c006318-c523-40a4-abe2-b7457cb697c4",
+    "name": "A4",
+    "releaseYear": 2025,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "94dfadfa-66c3-4256-88c2-cf3f5294226a",
+    "name": "Sentra",
+    "releaseYear": 2025,
+    "available": false,
+    "gasAvailable": true
+  }
+]

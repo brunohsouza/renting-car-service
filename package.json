@@ -1,0 +1,26 @@
+{
+  "name": "renting-car",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "unit": "npx mocha ./test/unit/*.test.js",
+    "test:dev": "npx mocha -w tests/*.test.js",
+    "test:cov": "npx nyc npx mocha -w ./test/unit/*.test.js"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "nyc": "^17.1.0",
+    "sinon": "^21.0.1",
+    "supertest": "^7.2.2"
+  },
+  "dependencies": {
+    "mocha": "^11.7.5"
+  }
+}
